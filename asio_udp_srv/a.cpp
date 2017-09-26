@@ -118,7 +118,7 @@ std::atomic<long int> g_state_tuntap2wire_started;
 std::atomic<long int> g_state_tuntap2wire_in_handler1;
 std::atomic<long int> g_state_tuntap2wire_in_handler2;
 
-int g_stage_sleep_time=500;
+int g_stage_sleep_time=0;
 
 struct t_mytime {
 	using t_timevalue = std::chrono::time_point<std::chrono::steady_clock>;
